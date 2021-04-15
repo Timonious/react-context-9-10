@@ -1,0 +1,23 @@
+.active-link {
+    text-underline: auto;
+    color: black;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    margin: 20px;
+}
+ #nav-bar-wrap {
+     background-color: darkgoldenrod;
+     height: 50px;
+     box-shadow: black 1px 1px 3px;
+ }
+
+ button {
+     background-color: burlywood;
+     box-shadow: black 1px 1px 1px;
+     border-radius: 4px;
+ }
